@@ -12,3 +12,7 @@ Kenza is PhD candidate at the University of Cambridge studying the applications 
 
 Research Interests
 ----
+
+* Climate and changes thereof, in particular to clouds, precipitation and wildfires
+* Machine learning in particular the Bayesian kind
+* Climate policy
