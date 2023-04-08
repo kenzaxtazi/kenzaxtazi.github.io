@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : 'KenzaxTazi'
+  username               : "KenzaxTazi"
 facebook:
   username               :
   app_id                 :
@@ -217,7 +217,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: false
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -226,7 +226,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: false
+      comments: true
   # _portfolio
   - scope:
       path: ""
@@ -235,7 +235,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: false
+      comment: true
   # _talks
   - scope:
       path: ""
@@ -243,7 +243,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: false
+      share: true
 
 # Sass/SCSS
 sass:
