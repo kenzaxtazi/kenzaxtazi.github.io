@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Kenza Tazi"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,3 +9,6 @@ redirect_from:
 ---
 
 Kenza is PhD candidate at the University of Cambridge studying the applications of AI to environmental risk. She is also an avid alpine skier who competed for Morocco at the 2014 Winter Olympics in the slalom and giant slalom. In this website you'll find her academic portofolio and projects.
+
+Research Interests
+----
