@@ -83,8 +83,8 @@ author:
   name             : "Kenza Tazi"
   avatar           : "profile.png"
   bio              : "Machine learning for the environment"
-  location         : "Cambridge, UK"
-  employer         : "University of Cambridge" 
+  location         : "University of Cambridge, UK" 
+  employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=zfX6gYAAAAAJ&hl=en"
   email            : "kt484@cam.ac.uk"
