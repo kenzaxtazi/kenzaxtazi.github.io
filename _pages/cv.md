@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-<img src='/files/KTazi_CV_Apr23.pdf'>
+![alt text]('/files/KTazi_CV_Apr23.pdf')
