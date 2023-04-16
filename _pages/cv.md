@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-![alt text]('/files/KTazi_CV_Apr23.pdf')
+![alt text]("/files/KTazi_CV_Apr23.pdf")
