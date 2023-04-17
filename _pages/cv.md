@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-![cv3](files/KTazi_CV_Apr23.pdf)
+  ![cv](files/KTazi_CV_Apr23.pdf)
