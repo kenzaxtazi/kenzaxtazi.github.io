@@ -27,17 +27,16 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. <p> Last
-    updated <span id="last-updated"></span> </p>
+<script>
+  // Get the last modified date of the current document
+  var lastModifiedDate = new Date(document.lastModified);
 
-  <script>
-    // Get the last modified date of the current document
-    var lastModifiedDate = new Date(document.lastModified);
+  // Format the date and time string
+  var formattedDate = lastModifiedDate.toLocaleString();
 
-    // Format the date and time string
-    var formattedDate = lastModifiedDate.toLocaleString();
+  // Update the content of the last-updated element
+  document.getElementById('last-updated').textContent = formattedDate;
+</script>
 
-    // Update the content of the last-updated element
-    document.getElementById('last-updated').textContent = formattedDate;
-  </script>
-</div>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Last
+  updated <span id="last-updated"></span> </div>
