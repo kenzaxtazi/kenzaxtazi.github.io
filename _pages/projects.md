@@ -4,13 +4,13 @@ title: " "
 excerpt: " "
 ---
 
-## Ongoing projects
+#### Ongoing projects
 
 ### Narrowing precipitation uncertainty in High Mountain Asia
 
 ### Beyond intuition, a framework for applying GPs
 
-## Previous projects
+#### Previous projects
 
 ### Pyrocast, a machine learning framework for forcasting pyroCb
 
