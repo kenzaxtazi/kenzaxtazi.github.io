@@ -4,9 +4,9 @@ title: " "
 excerpt: " "
 ---
 
-### Narrowing precipitation uncertainty in High Mountain Asia
+### Narrowing precipitation uncertainty over High Mountain Asia
 
-### Beyond intuition, a framework for applying GPs
+### Beyond intuition, a framework for applying GPs to real-word data
 
 ---
 
