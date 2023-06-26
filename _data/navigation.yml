@@ -21,6 +21,9 @@ main:
   - title: "Projects"
     url: /projects/
 
+  - title: "Resources"
+    url: /resources/
+
   - title: "CV"
     url: "http://kenzaxtazi.github.io//files/KTazi_CV_Apr23.pdf"
     
