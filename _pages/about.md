@@ -11,7 +11,7 @@ redirect_from:
 About
 ----
 
-Hi! I'm a PhD candidate at the University of Cambridge studying the application of AI to environmental risk. I love the outdoors, in particular exploring mountains. In 2014, I represented Morocco at the Sochi Winter Olympics in alpine skiing. In this website you'll find some of my projects.
+Hi! I'm a PhD candidate at the University of Cambridge studying the application of AI to environmental risk. I love the outdoors, in particular exploring mountains. In 2014, I represented Morocco at the Sochi Winter Olympics in alpine skiing. In this website you'll find some of my projects and favorite resources.
 
 Research Interests
 ----
