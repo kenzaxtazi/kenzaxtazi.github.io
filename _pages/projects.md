@@ -11,8 +11,6 @@ excerpt: " "
 
 ### Beyond intuition, a framework for applying GPs to real-word data
 
----
-
 ## Previous projects
 
 ### Pyrocast, a machine learning framework for forcasting pyroCb
