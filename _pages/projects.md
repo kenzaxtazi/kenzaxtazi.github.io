@@ -7,9 +7,22 @@ excerpt: " "
 
 ### Narrowing precipitation uncertainty over High Mountain Asia
 
-### Prediction precipitation in the Upper Indus Basin using Gaussian Processes
+High Mountain Asia supplies freshwater to over one billion people via Asia's largest rivers. In this area, rain and snowfall are the main drivers of river flow. However, the spatiotemporal distribution of precipitation is still poorly understood due to limited direct measurements from weather stations. Existing tools to fill in missing data or improve the resolution of coarser precipitation products produce biased results. In this talk, I will propose a method to generate more accurate high-resolution precipitation predictions over areas with sparse in situ data, called Multi-Fidelity Gaussian Processes (MFGPs). MFGP can combine multiple precipitation sources to increase the accuracy of precipitation estimates while providing principled uncertainties. This method can also make predictions in ungauged locations, away from the high-fidelity training distribution. Finally, MFGPs are simpler to implement and more applicable to small datasets than state-of-the-art machine learning models.
+
+[Talk](https://www.youtube.com/watch?v=sPsKBK3ORXE)
 
 ### Beyond intuition, a framework for applying GPs to real-word data
+
+Gaussian Processes (GPs) offer an attractive method for regression over small, structured and correlated datasets. However, their deployment is hindered by computational costs and limited guidelines on how to apply GPs beyond simple low-dimensional datasets. We propose a framework to identify the suitability of GPs to a given problem and how to set up a robust and well-specified GP model. The guidelines formalise the decisions of experienced GP practitioners, with an emphasis on kernel design and options for computational scalability. The framework is then applied to a case study of glacier elevation change yielding more accurate results at test time.
+
+[Paper](https://arxiv.org/abs/2307.03093)
+
+### Predicting precipitation in the Upper Indus Basin using Gaussian Processes
+
+The Upper Indus Basin, Himalayas provides water for 270 million people and countless ecosystems. However, precipitation, a key component to hydrological modelling, is poorly understood in this
+area. A key challenge surrounding this uncertainty comes from the complex spatial-temporal distribution of precipitation across the basin. In this project, we propose Gaussian processes kernels to overcome these challenges.
+
+[Paper](https://arxiv.org/abs/2209.04947)
 
 ## Previous projects
 
@@ -33,6 +46,6 @@ Our team of postdoctoral and PhD students proposed the Cambridgeshire Decarbonis
 
 2018-2019
 
-We developed a neural network to identify clouds over polar regions using Sentinel 3 data. The network was trained using CALIOP instrument onboard the CALIPSO satellite. The model improved accuracy by over 30% compared to the contemporary state-of-the art methods.
+We developed a neural network to identify clouds over polar regions using Sentinel 3 data. The network was trained using CALIPSO satellite data as ground truth. The model improved classification accuracy by over 30% compared to the contemporary state-of-the art methods over both the Arctic and Antarctic. The model was also shown to work on out-of-distribution domains, such as the tropics.
 
 [Paper](https://www.sciencedirect.com/science/article/pii/S0034425720303692)
