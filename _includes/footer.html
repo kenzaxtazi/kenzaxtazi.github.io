@@ -31,28 +31,4 @@
 </div>
 
 <div class="page__footer-copyright"> &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Last
-      updated <span id="formattedDate"></span>.
-
-      <script>
-            // JavaScript code to get and format the current date
-            var currentDate = new Date();
-
-            // Define an array of suffixes for the day (e.g., 1st, 2nd, 3rd, etc.)
-            var daySuffixes = ["st", "nd", "rd", "th", "th", "th", "th", "th", "th", "th", "th", "th", "th", "th", "th", "th", "th", "th", "th", "th", "st", "nd", "rd", "th", "th", "th", "th", "th", "th", "th", "st"];
-
-            // Get the day, month, and year
-            var day = currentDate.getDate();
-            var month = currentDate.toLocaleString('default', { month: 'long' });
-            var year = currentDate.getFullYear();
-
-            // Add the appropriate suffix to the day
-            var dayWithSuffix = day + daySuffixes[day - 1];
-
-            // Combine the components into the desired format
-            var formattedDate = dayWithSuffix + " " + month + " " + year;
-
-            // Output the formatted date
-            document.getElementById('formattedDate').innerHTML = formattedDate;
-      </script>
-
-</div>
+      updated {{ site.time | date: '%e %b %Y' }} </div>
