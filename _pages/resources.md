@@ -12,7 +12,7 @@ A list of resources that have helped and inspired me.
 * [Sustainable Energy without the Hot Air](https://www.withouthotair.com/) by David MacKay
 * [How to speak](https://www.youtube.com/watch?v=Unzc731iCUY) by Patrick Winston
 
-## My ressources
+## Teaching resources
 
 A list of resources I have created for teaching.
 
