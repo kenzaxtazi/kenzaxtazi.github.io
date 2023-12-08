@@ -69,8 +69,7 @@ Our team of postdoctoral and PhD students proposed the Cambridgeshire Decarbonis
 ### cloud-id, cloud identification over polar regions
 
 <details>
-<summary>2018-2019</summary>
-<br>
+<summary> 2018-2019 </summary>
 
 We developed a neural network (NN) to identify clouds over polar regions using satellite data from the Sentinel 3 SLSTR instrument. The network was trained using the CALIPSO satellite data as ground truth. The model improved classification accuracy by over 30% compared to the contemporary state-of-the art cloud mask methods over both the Arctic and Antarctic. The key improvement came from better identification of clear scenes; for the NN mask, the same performance in terms of contamination of cloudy pixels in the sample of identified clear pixels can be achieved while retaining 40% of the clear pixels compared with 10% for the operational cloud identification. The model was also shown to work on out-of-distribution domains, such as the tropics.
 
