@@ -7,33 +7,33 @@ excerpt: " "
 
 ### Narrowing precipitation uncertainty over High Mountain Asia
 
-2021 -
+2021-2024
 
 High Mountain Asia supplies freshwater to over one billion people via Asia's largest rivers. In this area, rain and snowfall are the main drivers of river flow. However, the spatiotemporal distribution of precipitation is still poorly understood due to limited direct measurements from weather stations. Existing tools to fill in missing data or improve the resolution of coarser precipitation products produce biased results. We propose a method to generate more accurate high-resolution precipitation predictions over areas with sparse in situ data, called Multi-Fidelity Gaussian Processes (MFGPs). MFGP can combine multiple precipitation sources to increase the accuracy of precipitation estimates while providing principled uncertainties. This method can also make predictions in ungauged locations, away from the high-fidelity training distribution. Finally, MFGPs are simpler to implement and more applicable to small datasets than state-of-the-art machine learning models.
 
 📹 [Morroco AI Webinar](https://www.youtube.com/watch?v=sPsKBK3ORXE) \
 📄 [Downscaling precipitation over High Mountain Asia using Multi-Fidelity Gaussian Processes](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2145/)
 
+### Predicting precipitation in the Upper Indus Basin using Gaussian Processes
+
+2022-2024
+
+The Upper Indus Basin, Himalayas provides water for 270 million people and countless ecosystems. However, precipitation, a key component to hydrological modelling, is poorly understood in this area. A key challenge surrounding this uncertainty comes from the complex spatial-temporal distribution of precipitation across the basin. In this project, we propose Gaussian processes kernels to overcome these challenges.
+
+📄 [Kernel learning for explainable climate science](https://arxiv.org/abs/2209.04947)
+
 ### Beyond intuition, a framework for applying GPs to real-word data
 
-2023 -
+2023-2024
 
 Gaussian Processes (GPs) offer an attractive method for regression over small, structured and correlated datasets. However, their deployment is hindered by computational costs and limited guidelines on how to apply GPs beyond simple low-dimensional datasets. We propose a framework to identify the suitability of GPs to a given problem and how to set up a robust and well-specified GP model. The guidelines formalise the decisions of experienced GP practitioners, with an emphasis on kernel design and options for computational scalability. The framework is then applied to a case study of glacier elevation change yielding more accurate results at test time.
 
 🔗 [Website](https://kenzaxtazi.github.io/realworldgp/) \
 📄 [Beyond intuition, a framework for applying GPs to real-word data](https://arxiv.org/abs/2307.03093)
 
-### Predicting precipitation in the Upper Indus Basin using Gaussian Processes
-
-2022 -
-
-The Upper Indus Basin, Himalayas provides water for 270 million people and countless ecosystems. However, precipitation, a key component to hydrological modelling, is poorly understood in this area. A key challenge surrounding this uncertainty comes from the complex spatial-temporal distribution of precipitation across the basin. In this project, we propose Gaussian processes kernels to overcome these challenges.
-
-📄 [Kernel learning for explainable climate science](https://arxiv.org/abs/2209.04947)
-
 ### BCM4RCM: Bayesian Committee Machines for Regional Climate Models
 
-2023 -
+2023-2024
 
 This work applies an ensembling method to combine different regional climate model outputs and produces principled uncertainty estimates of precipitation under different climate scenarios. These estimates inform the likelihood of extreme events that could lead to flooding, landslides, or droughts. More specifically, Gaussian Processes are fit to the projections of Coordinated Regional Downscaling Experiment (CORDEX) members for South Asia. A Gaussian Process is a probabilistic and interpretable machine learning method that gives principled uncertainty estimates. The models are then combined using a Bayesian Committee Machine. This method allows modellers to overcome the computational complexity of Gaussian Processes, thus improving scalability while conserving the benefits of Gaussian Process models.
 
@@ -43,7 +43,7 @@ This work applies an ensembling method to combine different regional climate mod
 
 ### High Mountain Data Working Group
 
-2024 -
+2024
 
 I will co-lead the Himalayan University Consortium Working Group on 'High Mountain Data' alongside Jakob Steiner and Himani Upaddhyay. More details soon!
 
