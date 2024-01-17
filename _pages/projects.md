@@ -7,7 +7,7 @@ excerpt: " "
 
 ### Narrowing precipitation uncertainty over High Mountain Asia
 
-2021-2024  &nbsp; <span style = "background-color:#C9E4DE"> # climate </span>  &nbsp; <span style = "background-color:#C6DEF1"> # machine learning</span>
+2021-2024  &nbsp; <span style = "background-color:#C9E4DE"> # climate</span>  &nbsp; <span style = "background-color:#C6DEF1"> # machine learning</span>
 
 High Mountain Asia supplies freshwater to over one billion people via Asia's largest rivers. In this area, rain and snowfall are the main drivers of river flow. However, the spatiotemporal distribution of precipitation is still poorly understood due to limited direct measurements from weather stations. Existing tools to fill in missing data or improve the resolution of coarser precipitation products produce biased results. We propose a method to generate more accurate high-resolution precipitation predictions over areas with sparse in situ data, called Multi-Fidelity Gaussian Processes (MFGPs). MFGP can combine multiple precipitation sources to increase the accuracy of precipitation estimates while providing principled uncertainties. This method can also make predictions in ungauged locations, away from the high-fidelity training distribution. Finally, MFGPs are simpler to implement and more applicable to small datasets than state-of-the-art machine learning models.
 
@@ -16,7 +16,7 @@ High Mountain Asia supplies freshwater to over one billion people via Asia's lar
 
 ### Predicting precipitation in the Upper Indus Basin using Gaussian Processes
 
-2022-2024 &nbsp; <span style = "background-color:#C9E4DE"> # climate </span>  &nbsp; <span style = "background-color:#C6DEF1"> # machine learning</span>
+2022-2024 &nbsp; <span style = "background-color:#C9E4DE"># climate</span>  &nbsp; <span style = "background-color:#C6DEF1"> # machine learning</span>
 
 The Upper Indus Basin, Himalayas provides water for 270 million people and countless ecosystems. However, precipitation, a key component to hydrological modelling, is poorly understood in this area. A key challenge surrounding this uncertainty comes from the complex spatial-temporal distribution of precipitation across the basin. In this project, we propose Gaussian processes kernels to overcome these challenges.
 
@@ -24,7 +24,7 @@ The Upper Indus Basin, Himalayas provides water for 270 million people and count
 
 ### Beyond intuition, a framework for applying GPs to real-word data
 
-2023-2024 &nbsp; <span style = "background-color:#C6DEF1"> # machine learning</span>
+2023-2024 &nbsp; <span style = "background-color:#C6DEF1"># machine learning</span>
 
 Gaussian Processes (GPs) offer an attractive method for regression over small, structured and correlated datasets. However, their deployment is hindered by computational costs and limited guidelines on how to apply GPs beyond simple low-dimensional datasets. We propose a framework to identify the suitability of GPs to a given problem and how to set up a robust and well-specified GP model. The guidelines formalise the decisions of experienced GP practitioners, with an emphasis on kernel design and options for computational scalability. The framework is then applied to a case study of glacier elevation change yielding more accurate results at test time.
 
@@ -33,7 +33,7 @@ Gaussian Processes (GPs) offer an attractive method for regression over small, s
 
 ### BCM4RCM: Bayesian Committee Machines for Regional Climate Models
 
-2023-2024  &nbsp; <span style = "background-color:#C9E4DE"> # climate </span>  &nbsp; <span style = "background-color:#C6DEF1"> # machine learning</span>
+2023-2024  &nbsp; <span style = "background-color:#C9E4DE"># climate</span>  &nbsp; <span style = "background-color:#C6DEF1"># machine learning</span>
 
 This work applies an ensembling method to combine different regional climate model outputs and produces principled uncertainty estimates of precipitation under different climate scenarios. These estimates inform the likelihood of extreme events that could lead to flooding, landslides, or droughts. More specifically, Gaussian Processes are fit to the projections of Coordinated Regional Downscaling Experiment (CORDEX) members for South Asia. A Gaussian Process is a probabilistic and interpretable machine learning method that gives principled uncertainty estimates. The models are then combined using a Bayesian Committee Machine. This method allows modellers to overcome the computational complexity of Gaussian Processes, thus improving scalability while conserving the benefits of Gaussian Process models.
 
@@ -68,7 +68,7 @@ Our team of postdoctoral and PhD students proposed the Cambridgeshire Decarbonis
 
 ### cloud-id, cloud identification over polar regions
 
-2018-2019 &nbsp; <span style = "background-color:#C9E4DE"> # climate </span>  &nbsp; <span style = "background-color:#C6DEF1"> # machine learning</span>
+2018-2019 &nbsp; <span style = "background-color:#C9E4DE"> # climate</span>  &nbsp; <span style = "background-color:#C6DEF1"> # machine learning</span>
 
 We developed a neural network (NN) to identify clouds over polar regions using satellite data from the Sentinel 3 SLSTR instrument. The network was trained using the CALIPSO satellite data as ground truth. The model improved classification accuracy by over 30% compared to the contemporary state-of-the art cloud mask methods over both the Arctic and Antarctic. The key improvement came from better identification of clear scenes; for the NN mask, the same performance in terms of contamination of cloudy pixels in the sample of identified clear pixels can be achieved while retaining 40% of the clear pixels compared with 10% for the operational cloud identification. The model was also shown to work on out-of-distribution domains, such as the tropics.
 
