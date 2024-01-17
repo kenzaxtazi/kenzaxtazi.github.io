@@ -43,7 +43,7 @@ This work applies an ensembling method to combine different regional climate mod
 
 ### High Mountain Data Working Group
 
-2024  ==climate== ==policy==
+2024  <li> <span style = "background-color:#90EE90">climate</li> <li> <span style = "background-color:##FFFFED">policy</li>
 
 I will co-lead the Himalayan University Consortium Working Group on 'High Mountain Data' alongside Jakob Steiner and Himani Upaddhyay. More details soon!
 
