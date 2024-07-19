@@ -1,6 +1,6 @@
 ---
-title: "High Mountain Data"
-excerpt: "Himalayan University Consortium Working Group"
+title: "High Mountain Data Working Group"
+excerpt: "More details soon!"
 layout: archive
 header:
     teaser: /hallasan.png
