@@ -14,7 +14,7 @@ A list of resources that have helped and inspired me.
 
 ### Climate policy
 
-In their own ways these books show that fixing climate change cannot be solved through scientific and technical progress alone, but how we collectively behave other and how we perceive our responsibilities towards each other.
+In their own ways, these books show that fixing climate change cannot be solved through scientific and technical progress alone. How we collectively behave and how we perceive our responsibility towards one another are equally important.
 
 📖 [The Ascent of the Anthropoi: A Story](https://www.cambridge.org/core/books/altered-earth/ascent-of-the-anthropoi-a-story/398D287A7F41234FB61097456223823C) by Amitav Gosh
 
