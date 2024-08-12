@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-UK"
 title                    : "Kenza Tazi"
 title_separator          : "-"
 name                     : &name "Kenza Tazi"
-description              : &description "PhD candidate"
+description              : &description "PhD student"
 url                      : https://kenzaxtazi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kenzaxtazi/kenzaxtazi.github.io"
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Kenza Tazi"
   avatar           : "profile.png"
-  bio              : "Machine learning for the environment"
+  bio              : "Machine learning for the climate"
   location         : "University of Cambridge, UK" 
   employer         : 
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=zfX6gYAAAAAJ&hl=en"
   email            : 
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/kenzatazi/"
+  linkedin         : "kenzatazi"
   orcid            : "https://orcid.org/0000-0002-8169-6673"
   pinterest        :
   soundcloud       :
