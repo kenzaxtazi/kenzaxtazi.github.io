@@ -1,10 +1,15 @@
 ---
-title: "Real-world GPs "
-excerpt: "A framework for applying GPs to real-word data"
+title: "Beyond intuition, a framework for applying Gaussian Processes to real-word data"
+excerpt: "Formalisation of the decision making process of experienced Gaussian Processes users with an emphasis on kernel design and computational scalability"
 layout: archive
 header:
     teaser: /pink_snow.jpg
 collection: portfolio
+pdate: "2022-2024"
+tags:
+    - "machine learning"
+paper: <https://arxiv.org/abs/2307.03093>
+website: <https://kenzaxtazi.github.io/realworldgp/>
 ---
 
 2023-2024 &nbsp; <span style = "background-color:#C6DEF1"># machine learning</span>

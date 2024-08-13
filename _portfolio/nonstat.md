@@ -1,10 +1,19 @@
 ---
-title: "Predicting precipitation in the Upper Indus Basin using Gaussian Processes"
-excerpt: "Exploration of nonstationary kernels for 15-year predictions"
+title: "Predicting future precipitation in the Upper Indus Basin using Gaussian Processes"
+excerpt: "Large-scale atmospheric variables are used to make 15-year projections where flexible non-stationary techniques are contrasted with methods incorporating domain knowledge"
 layout: archive
 collection: portfolio
 header:
     teaser: /green_mountains.jpg
+pdate: "2022-2024"
+tags:
+    - "climate"
+    - "machine learning"
+
+paper: <https://arxiv.org/abs/2209.04947>
+code: <https://github.com/kenzaxtazi/precip-prediction>
+talk: <https://www.youtube.com/watch?v=50KpqS5z6x4&list=PLuD_SqLtxSdWDx0vIAk6b1EQXEff9bsZo&index=4>
+
 ---
 
 2022-2024 &nbsp; <span style = "background-color:#C9E4DE"># climate</span>  &nbsp; <span style = "background-color:#C6DEF1"> # machine learning</span>

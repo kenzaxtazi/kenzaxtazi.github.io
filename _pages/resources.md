@@ -1,7 +1,6 @@
 ---
+title: "Resources"
 permalink: /resources/
-title: " "
-excerpt: " "
 ---
 
 ## Inspiration

@@ -34,7 +34,7 @@
   color: mix(#fff, $gray, 25%);
   border-bottom: 1px solid $border-color;
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
@@ -43,7 +43,7 @@
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
 }
@@ -55,13 +55,19 @@
     margin-top: 1em;
     border-bottom: none;
   }
+
+  .archive__item-title2 {
+    margin-top: 1em;
+    border-bottom: none;
+  }
+
 }
 
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
 
-  & + p {
+  &+p {
     text-indent: 0;
   }
 }
@@ -69,8 +75,16 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
+  }
+}
+
+.archive__item-teaser2 {
+  overflow: hidden;
+  img {
+    height: 15%;
   }
 }
 
@@ -90,6 +104,9 @@
    ========================================================================== */
 
 .list__item {
+
+  margin-top: 3em;
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
@@ -102,10 +119,19 @@
     padding-right: $right-sidebar-width-wide;
   }
 
+  .archive__item-teaser2 {
+    float:left; 
+    img {width: 175px; height: 175px;};
+    margin-right: 20px;}
+
+  .archive__item-body{float:right}
+  .archive__item-excerpt{float:right}
+
   .page__meta {
     margin: 0 0 4px;
   }
 }
+
 
 
 /*
@@ -130,14 +156,17 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
+
     .archive__item-teaser {
       max-height: 200px;
     }
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0;
+    /* reset before mixin does its thing*/
+    margin-right: 0;
+    /* reset before mixin does its thing*/
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
@@ -171,7 +200,7 @@
     @include gallery(4 of 12);
 
     .feature__item-teaser {
-      max-height: 200px;
+      max-height: 175px;
       overflow: hidden;
     }
   }

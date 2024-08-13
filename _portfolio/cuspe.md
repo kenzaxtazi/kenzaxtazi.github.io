@@ -1,10 +1,16 @@
 ---
-title: "Cambridgeshire Decarbonisation Fund"
-excerpt: "Net-Zero Cambridgeshire by 2050"
+title: "Cambridgeshire Decarbonisation Fund: Net-Zero by 2050"
+excerpt: "Investment opportunities to support locally in community infrastructure and nature-based projects that reduce carbon emissions at their source or actively sequester carbon"
 layout: archive
 collection: portfolio_old
 header:
   teaser: /cam.jpeg
+pdate: "2020-2021"
+tags:
+  - "climate"
+  - "policy"
+paper: <https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-policy-challenges-cambridge-university-science-and-policy-exchange-cuspe-20>
+talk: <https://www.youtube.com/live/RlzZlCPBJKk?si=bWzdAxUIJvk0JaQE&t=7191>
 ---
 
 2020-2021 &nbsp; <span style = "background-color:#C9E4DE"> # climate</span>  &nbsp; <span style = "background-color:#FAEDCB"> # policy</span>
