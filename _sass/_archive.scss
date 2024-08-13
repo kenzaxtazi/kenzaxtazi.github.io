@@ -119,10 +119,10 @@
     padding-right: $right-sidebar-width-wide;
   }
 
-  .archive__item-teaser2 {
-    float:left; 
-    img {width: 175px; height: 175px;};
-    margin-right: 20px;}
+  .archive__item-teaser2{
+    float:left;
+    img {width:175px; height:175px;};
+    margin-right:20px;}
 
   .archive__item-body{float:right}
   .archive__item-excerpt{float:right}
@@ -200,7 +200,7 @@
     @include gallery(4 of 12);
 
     .feature__item-teaser {
-      max-height: 175px;
+      max-height:175px;
       overflow: hidden;
     }
   }
