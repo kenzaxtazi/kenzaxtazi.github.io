@@ -20,61 +20,63 @@
         base_path }}" {% endif %} alt="">
     </div>
 
-    <h3 class="archive__item-title2" itemprop="headline"> {{title}} </h3>
+  
+      <h3 class="archive__item-title2" itemprop="headline"> {{title}} </h3>
 
-    <p class="page__meta">
-      {%if post.pdate %} {{ post.pdate }} {%endif %}
+      <p class="page__meta">
+        {%if post.pdate %} {{ post.pdate }} {%endif %}
 
-      {% if post.tags %}
-      {% for tag in post.tags %}
-      {% if tag == "climate" %} | <span class="tag" style="color:hsl(160, 14%, 50%)"> {{ tag }}</span> {% endif %}
-      {% if tag == "policy" %} | <span class="tag" style="color:hsl(28, 56%, 50%)"> {{ tag }}</span> {% endif %}
-      {% if tag == "machine learning" %} | <span class="tag" style="color:hsl(189, 42%, 50%)"> {{ tag }}</span> {%
-      endif %}
-      {% endfor %}
-      {% endif %} </p>
+        {% if post.tags %}
+        {% for tag in post.tags %}
+        {% if tag == "climate" %} | <span class="tag" style="color:hsl(160, 14%, 50%)"> {{ tag }}</span> {% endif %}
+        {% if tag == "policy" %} | <span class="tag" style="color:hsl(28, 56%, 50%)"> {{ tag }}</span> {% endif %}
+        {% if tag == "machine learning" %} | <span class="tag" style="color:hsl(189, 42%, 50%)"> {{ tag }}</span> {%
+        endif %}
+        {% endfor %}
+        {% endif %} </p>
 
-    {% if post.read_time %}
-    <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-
-    {% if post.collection == 'teaching' %}
-    <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.collection == 'publications' %}
-    <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.date %}
-    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{
-        site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
-        datetime="{{ post.date | default: " 1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01"
-        |
-        date: "%B %d, %Y" }}</time></p>
-    {% endif %}
-
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">
-    <p>{{ post.excerpt | markdownify | remove: '
-    <p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
-    </p>
-    </p>
-    {% endif %}
-
-    <p class="page__meta">
-      {% if post.paper%} <a href="{{ post.paper }}"> <i class="fa fa-paper-plane"></i> paper</a>
-      &nbsp {% endif %}
-      {% if post.code%} <a href="{{ post.code }}"> <i class="fa fa-code" aria-hidden="true"></i></i> code</a>
-      &nbsp {% endif %}
-      {% if post.website%} <a href="{{ post.website }}"> <i class="fa fa-link" aria-hidden="true"></i></i> website</a>
-      &nbsp {% endif %}
-
-      {% if post.talk%} <a href="{{ post.talk }}"> <i class="fa fa-video" aria-hidden="true"></i> talk</a> &nbsp
+      {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
-      {% if post.press%} <a href="{{ post.press }}"> <i class="fa fa-newspaper"></i> press</a>
-      &nbsp {% endif %}
-      {% if post.award%} <i class="fa fa-trophy" aria-hidden="true"></i> {{post.award}} &nbsp {% endif %}
 
-    </p>
+      {% if post.collection == 'teaching' %}
+      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      {% elsif post.collection == 'publications' %}
+      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      {% elsif post.date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{
+          site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
+          datetime="{{ post.date | default: " 1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01"
+          |
+          date: "%B %d, %Y" }}</time></p>
+      {% endif %}
+
+      {% if post.excerpt and site.read_more != 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% elsif post.excerpt and site.read_more == 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">
+      <p>{{ post.excerpt | markdownify | remove: '
+      <p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
+      </p>
+      </p>
+      {% endif %}
+
+      <p class="page__meta">
+        {% if post.paper%} <a href="{{ post.paper }}"> <i class="fa fa-paper-plane"></i> paper</a>
+        &nbsp {% endif %}
+        {% if post.code%} <a href="{{ post.code }}"> <i class="fa fa-code" aria-hidden="true"></i></i> code</a>
+        &nbsp {% endif %}
+        {% if post.dataset%} <a href="{{ post.dataset }}"> <i class="fa fa-database" aria-hidden="true"></i></i> dataset </a>
+        &nbsp {% endif %}
+        {% if post.website%} <a href="{{ post.website }}"> <i class="fa fa-link" aria-hidden="true"></i></i> website</a>
+        &nbsp {% endif %}
+        {% if post.talk%} <a href="{{ post.talk }}"> <i class="fa fa-video" aria-hidden="true"></i> talk</a> &nbsp
+        {% endif %}
+        {% if post.press%} <a href="{{ post.press }}"> <i class="fa fa-newspaper"></i> press</a>
+        &nbsp {% endif %}
+        {% if post.award%} <i class="fa fa-trophy" aria-hidden="true"></i> {{post.award}} &nbsp {% endif %}
+
+      </p>
 
 
   </article>
