@@ -1,6 +1,6 @@
 ---
 title: "Beyond intuition, a framework for applying Gaussian Processes to real-word data"
-excerpt: "Formalisation of the decision making process of experienced Gaussian Processes users with an emphasis on kernel design and computational scalability"
+excerpt: "Formalising the decision-making process of experienced Gaussian Processes users with an emphasis on kernel design and computational scalability"
 layout: archive
 header:
     teaser: /pink_snow.jpg
