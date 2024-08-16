@@ -1,6 +1,6 @@
 ---
 permalink: /projects/
-title: "Projects"
+title: "Featured projects"
 layout: collection
 collection1: portfolio
 entries_layout: list
