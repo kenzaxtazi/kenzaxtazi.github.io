@@ -14,7 +14,7 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(2.1 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -172,7 +172,7 @@
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 
-  @include breakpoint($large) {
+  @include breakpoint($large){
     display: block;
     position: relative;
     margin: 0;
@@ -217,7 +217,7 @@
   }
 
   li {
-    white-space: nowrap;
+    word-wrap: break-word;
   }
 
   a {
@@ -229,6 +229,8 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    word-wrap: break-word;
+    max-width: 100%;
 
     &:hover {
       text-decoration: underline;
