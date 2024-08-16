@@ -8,8 +8,8 @@ collection: portfolio
 pdate: "2022-2024"
 tags:
     - "machine learning"
-paper: <https://arxiv.org/abs/2307.03093>
-website: <https://kenzaxtazi.github.io/realworldgp/>
+paper: https://arxiv.org/abs/2307.03093>
+website: https://kenzaxtazi.github.io/realworldgp/
 ---
 
 2023-2024 &nbsp; <span style = "background-color:#C6DEF1"># machine learning</span>

@@ -9,8 +9,8 @@ pdate: "2020-2021"
 tags:
   - "climate"
   - "policy"
-paper: <https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-policy-challenges-cambridge-university-science-and-policy-exchange-cuspe-20>
-talk: <https://www.youtube.com/live/RlzZlCPBJKk?si=bWzdAxUIJvk0JaQE&t=7191>
+paper: https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-policy-challenges-cambridge-university-science-and-policy-exchange-cuspe-20
+talk: https://www.youtube.com/live/RlzZlCPBJKk?si=bWzdAxUIJvk0JaQE&t=7191
 ---
 
 2020-2021 &nbsp; <span style = "background-color:#C9E4DE"> # climate</span>  &nbsp; <span style = "background-color:#FAEDCB"> # policy</span>

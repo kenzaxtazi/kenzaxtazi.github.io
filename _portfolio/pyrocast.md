@@ -9,7 +9,7 @@ pdate: "2022"
 tags:
     - "climate"
     - "machine learning"
-paper: <https://arxiv.org/abs/2211.13052>
+paper: https://arxiv.org/abs/2211.13052
 code: https://github.com/spaceml-org/pyrocast
 press: https://www.scan.co.uk/business/fdl-2022-aerosols-case-study
 talk: https://www.youtube.com/watch?v=mAccr79BmDo

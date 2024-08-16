@@ -9,9 +9,9 @@ pdate: "2021-2024"
 tags:
     - "climate"
     - "machine learning"
-code: <https://github.com/kenzaxtazi/mfgp>
-paper: <https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2145/>
-talk: <https://www.youtube.com/watch?v=sPsKBK3ORXE>
+code: https://github.com/kenzaxtazi/mfgp
+paper: https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2145/
+talk: https://www.youtube.com/watch?v=sPsKBK3ORXE
 award: "$25,000  Microsoft AI for Earth Grant" 
 ---
 

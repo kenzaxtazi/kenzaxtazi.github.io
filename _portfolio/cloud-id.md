@@ -9,8 +9,8 @@ pdate: "2018-2020"
 tags:
     - "climate"
     - "machine learning"
-paper: <https://www.sciencedirect.com/science/article/pii/S0034425720303692>
-code: <https://github.com/kenzaxtazi/cloud-id>
+paper: https://www.sciencedirect.com/science/article/pii/S0034425720303692
+code: https://github.com/kenzaxtazi/cloud-id
 
 ---
 

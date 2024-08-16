@@ -10,9 +10,9 @@ tags:
     - "climate"
     - "machine learning"
 
-paper: <https://arxiv.org/abs/2209.04947>
-code: <https://github.com/kenzaxtazi/precip-prediction>
-talk: <https://www.youtube.com/watch?v=50KpqS5z6x4&list=PLuD_SqLtxSdWDx0vIAk6b1EQXEff9bsZo&index=4>
+paper: https://arxiv.org/abs/2209.04947
+code: https://github.com/kenzaxtazi/precip-prediction
+talk: https://www.youtube.com/watch?v=50KpqS5z6x4&list=PLuD_SqLtxSdWDx0vIAk6b1EQXEff9bsZo&index=4
 
 ---
 
