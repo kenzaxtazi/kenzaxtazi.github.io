@@ -1,6 +1,6 @@
 ---
 title: "Narrowing precipitation uncertainty over High Mountain Asia"
-excerpt: "Downscaling precipitation using Multi-Fidelity Gaussian Processes by combining data from multiple precipitation sources to increase prediction accuracy and provide principled uncertainty distribution"
+excerpt: "Downscaling precipitation using Multi-Fidelity Gaussian Processes by combining data from multiple sources to increase prediction accuracy and provide principled uncertainty distribution"
 layout: archive
 header:
     teaser: /snowy_tree.jpg
@@ -12,6 +12,7 @@ tags:
 code: https://github.com/kenzaxtazi/mfgp
 paper: https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2145/
 talk: https://www.youtube.com/watch?v=sPsKBK3ORXE
+dataset: https://doi.org/10.1029/2019JD030804
 award: "$25,000  Microsoft AI for Earth Grant" 
 ---
 
