@@ -8,7 +8,7 @@ collection: portfolio
 pdate: "2022-2024"
 tags:
     - "machine learning"
-paper: https://arxiv.org/abs/2307.03093>
+paper: https://arxiv.org/abs/2307.03093
 website: https://kenzaxtazi.github.io/realworldgp/
 ---
 
