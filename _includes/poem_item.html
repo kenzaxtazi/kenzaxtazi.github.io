@@ -1,21 +1,12 @@
 
 <a>
     <article>
-        <div class="flexbox center pa4">
+        <div class="flexbox center pa4" id="{{post.id}}">
             <div class="center ph3">
                 {% if post.id %} <h2> {{ post.id | slice: -2,2 }}</h2>{% endif %}
             </div>
-            <div class="ph3" id="{{post.id}}">
-                {% if post.english_title %} <h3> {{ post.english_title }} </h3> {% endif %}
-                {% if post.english_author%} <p> {{ post.english_author }} </p> {% endif %}
-                {% if post.english_provenance %} <p>{{ post.english_provenance }}</p> {% endif %}
-
+            <div class="center ph3">
                 {{ post.content | markdownify }}
-            </div>
-            <div class=ph3>
-                {% if post.korean_title %} <h3>{{ post.korean_title }} </h3>{% endif %}
-                {% if post.korean_author%} <p>{{ post.korean_author }}</p> {% endif %}
-                {% if post.korean_provenance %} <p>{{ post.korean_provenance }}</p> {% endif %}
             </div>
         </div>
     </article>
