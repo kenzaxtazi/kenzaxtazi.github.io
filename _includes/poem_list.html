@@ -1,0 +1,19 @@
+{% assign entries = site.anthology%}
+
+{% if include.sort_by %}
+    {% assign entries = entries | sort: include.sort_by %}
+{% endif %}
+
+{% if include.type=="toc" %}
+    {%- for post in entries -%}
+        {%- unless post.hidden -%}
+            {% include poem_toc_item.html %}
+        {% endunless %}
+    {%- endfor -%}
+{% else %}
+    {%- for post in entries -%}
+        {%- unless post.hidden -%}
+            {% include poem_item.html %}
+        {% endunless %}
+    {%- endfor -%}
+{% endif %}

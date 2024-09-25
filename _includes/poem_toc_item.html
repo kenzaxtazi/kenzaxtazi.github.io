@@ -1,0 +1,17 @@
+
+<a>
+    <article>
+        <div class="flex justify-around">
+            <div class="tr w-40">
+                {% if post.english_title %} <a class="menu-link" href="#{{post.id}}"> {{ post.english_title }} </a> {% endif %}
+            </div>
+            <div class="tc w-5">
+                {% if post.id %} <a class="menu-link" href="#{{post.id}}"> {{ post.id | slice: -2,2 }}</a>{% endif %}
+            </div>
+            <div class="tl w-40">
+                {% if post.korean_title %} <a class="menu-link" href="#{{post.id}}"> {{ post.korean_title }}
+                </a>{% endif %}
+            </div>
+        </div>
+    </article>
+</a>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Seoul Subway Poems</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+    <!-- <link rel="icon" href="images/tab_icon.svg"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="fonts/CooperHewitt/stylesheet.css"> -->
+    <link href="/poems_style.css" rel="stylesheet" type="text/css">
+    <!-- <link href="style_lovers_magazine.css" rel="stylesheet" type="text/css"> -->
+</head>
+
+<body class="avenir">
+    <article class="avenir">
+        <div class="db w-100 tc flex flex-column">
+            <h1> Seoul Subway Poems</h1>
+        </div>
+    </article>
+    <section>
+        <div class="fw3 f5 w-60 center pv3 ph3-ns">
+            {{content}}
+        </div>
+    </section>
+    <section>
+        <div class="w-70 center ph3-ns">
+        {% include poem_list.html collection="anthology" sort_by="id" type="toc" %}
+        {% include poem_list.html collection="anthology" sort_by="id" %}
+        </div>
+    </section>
+</body>
+
+<!-- Table of contents -->

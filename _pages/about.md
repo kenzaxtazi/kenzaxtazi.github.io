@@ -25,4 +25,4 @@ Other Interests
 
 * Outdoors, in particular exploring mountains. In 2014, I represented Morocco at the Sochi Winter Olympics in alpine skiing
 * Korean poetry, check out some of my translations [here](https://www.instagram.com/seoulsubwaypoems)
-* Photography, many pictures with questionable artisitic merit
+* Photography, many pictures with questionable artistic merit

@@ -4,7 +4,7 @@ excerpt: "A pipeline for the identification, forecasting and causal prediction o
 layout: archive
 header:
     teaser: /fire.png
-collection: portfolio_old
+collection: portfolio
 pdate: "2022"
 tags:
     - "climate"
