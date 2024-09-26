@@ -17,16 +17,22 @@
 <body class="avenir">
     <article class="avenir">
         <div class="db w-100 tc flex flex-column">
-            <h1> Seoul Subway Poems</h1>
+            <h1>Seoul Subway Poems</h1>
         </div>
     </article>
-    <section>
-        <div class="fw3 f5 w-60 center pv3 ph3-ns">
-            {{content}}
+    <section class="center w-70 ph2-ns">
+        <div class="flex justify-around center ph0">
+            <div class="tl fw3 f5 pv3 pr2-ns">
+                {{content}}
+            </div>
+            <div class="tr fw3 f5 pv3 pl2-ns">
+                <p> Winter 2022 </p>
+                <p> 겨울 2022 </p>
+            </div>
         </div>
     </section>
     <section>
-        <div class="w-70 center ph3-ns">
+        <div class="center w-70 ph2-ns">
         {% include poem_list.html collection="anthology" sort_by="id" type="toc" %}
         {% include poem_list.html collection="anthology" sort_by="id" %}
         </div>
