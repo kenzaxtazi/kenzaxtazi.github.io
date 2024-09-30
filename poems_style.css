@@ -88,6 +88,7 @@ a:focus {
     font-size: 0.75rem;
     text-transform: uppercase;
     /* Mid-gray */
+
     color: #555;
     letter-spacing: .1em;
     /* Transition effects */
@@ -146,6 +147,7 @@ a:focus {
 
 /* When screen is smaller than 56em */
 @media screen and (max-width: 56em) {
+
     .about-and-menu {
         flex-direction: column;
     }
@@ -165,6 +167,7 @@ a:focus {
 
     .menu-link {
         display: inline;
+        font-size: 0.6rem;
     }
 
     .menu-title {
