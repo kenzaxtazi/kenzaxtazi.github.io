@@ -10,7 +10,7 @@ tags:
     - "climate"
     - "machine learning"
 code: https://github.com/kenzaxtazi/mfgp
-paper: https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2145/
+paper: https://doi.org/10.5194/hess-28-4903-2024
 talk: https://www.youtube.com/watch?v=sPsKBK3ORXE
 dataset: https://doi.org/10.1029/2019JD030804
 award: "$25,000  Microsoft AI for Earth Grant" 
