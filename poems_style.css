@@ -39,13 +39,9 @@ a:focus {
 .lh-solid{
     line-height: 2;}
 
-
-.phone_body{
-    font-size: 1rem;
-    overflow-x: scroll;}
-
-@media only screen and (max-width: 56em) {
-    
+@media screen and (max-width: 40em) {
+    .phone_body {
+            font-size: 0.9rem;}
 }
 
 /* About section styling */
