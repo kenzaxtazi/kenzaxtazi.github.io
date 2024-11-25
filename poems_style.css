@@ -39,6 +39,7 @@ a:focus {
 .lh-solid{
     line-height: 2;}
 
+
 @media screen and (max-width: 40em) {
     .phone_body {
             font-size: 0.9rem;}
