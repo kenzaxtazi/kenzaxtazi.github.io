@@ -1,11 +1,11 @@
 
 <a>
     <article>
-        <div class="center flexbox pv4 pl4 pr3 w-70-l" id="{{post.id}}">
-            <div class="center ph3">
+        <div class="center flexbox pa4 w-70-l" id="{{post.id}}">
+            <div class="center ph2">
                 {% if post.id %} <h2> {{ post.id | slice: -2,2 }}</h2>{% endif %}
             </div>
-            <div class="phone_body center pl3">
+            <div class="phone_body center ph2">
                 {{ post.content | markdownify }}
             </div>
         </div>
