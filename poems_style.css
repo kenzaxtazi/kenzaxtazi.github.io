@@ -39,6 +39,11 @@ a:focus {
 .lh-solid {
     line-height: 2;}
 
+@media screen and (max-width: 56em) {
+    .phone_body{
+        font-size: 0.8rem;}
+}
+
 /* About section styling */
 
 .about-and-menu {
@@ -88,7 +93,7 @@ a:focus {
     margin-top: 0.5em; */
     padding-bottom: 0.25em;
     padding-top: 0.25em;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     /* Mid-gray */
 
@@ -170,7 +175,7 @@ a:focus {
 
     .menu-link {
         display: inline;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     .menu-title {
