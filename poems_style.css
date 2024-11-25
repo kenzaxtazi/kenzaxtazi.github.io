@@ -36,6 +36,9 @@ a:focus {
 /* ^^ Defaults for rendering markdown ^^ */
 
 
+.lh-solid {
+    line-height: 2;}
+
 /* About section styling */
 
 .about-and-menu {
