@@ -1,14 +1,15 @@
 
 <a>
     <article>
-        <div class="flex justify-around">
-            <div class="tr w-40">
+        <div class="flex justify-center">
+            <div class="phone_hidden tr w-40-ns pv1">
                 {% if post.english_title %} <a class="menu-link" href="#{{post.id}}"> {{ post.english_title }} </a> {% endif %}
             </div>
-            <div class="tc w-5">
-                {% if post.id %} <a class="menu-link" href="#{{post.id}}"> {{ post.id | slice: -2,2 }}</a>{% endif %}
+            <div class="tc w-5 h2-ns pt1 ph3 pv1">
+                {% if post.id %} <a class="menu-link" href="#{{post.id}}"> {{ post.id | slice: -2,2 }} </a>{% endif %}
             </div>
-            <div class="tl w-40">
+            <div class="toc_entry tl w-40-ns pv1">
+                {% if post.english_title %} <a class="desktop_hidden" href="#{{post.id}}"> {{ post.english_title }} <br> </a> {% endif %}
                 {% if post.korean_title %} <a class="menu-link" href="#{{post.id}}"> {{ post.korean_title }}
                 </a>{% endif %}
             </div>

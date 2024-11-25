@@ -36,12 +36,16 @@ a:focus {
 /* ^^ Defaults for rendering markdown ^^ */
 
 
-.lh-solid {
+.lh-solid{
     line-height: 2;}
 
-@media screen and (max-width: 56em) {
-    .phone_body{
-        font-size: 0.8rem;}
+
+.phone_body{
+    font-size: 1rem;
+    overflow-x: scroll;}
+
+@media only screen and (max-width: 56em) {
+    
 }
 
 /* About section styling */
@@ -104,6 +108,30 @@ a:focus {
     /* transition: transform 0.25s ease-out; */
 }
 
+
+.phone_hidden{
+    display: block;
+    margin-right: 0em;
+    margin-left: 0em;
+    /* margin-bottom: 0.5em;
+    margin-top: 0.5em; */
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    /* Mid-gray */
+
+    color: #555;
+    letter-spacing: .1em;
+    /* Transition effects */
+    transition: color .15s ease-in;
+    /* transition: transform 0.25s ease-out; */
+}
+
+.desktop_hidden{
+    display: none;
+}
+
 .menu-link:hover,
 .menu-link:focus {
     color: #000;
@@ -154,8 +182,35 @@ a:focus {
 }
 
 /* When screen is smaller than 56em */
-@media screen and (max-width: 56em) {
+@media screen and (max-width: 50em){
 
+    .toc_entry{
+        width: 20rem;
+    }
+
+    .phone_hidden {
+                display: none; 
+            }
+
+    .desktop_hidden {
+            display: block;
+            margin-right: 0em;
+            margin-left: 0em;
+            /* margin-bottom: 0.5em;
+        margin-top: 0.5em; */
+            padding-bottom: 0.25em;
+            padding-top: 0.25em;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            /* Mid-gray */
+    
+            color: #555;
+            letter-spacing: .1em;
+            /* Transition effects */
+            transition: color .15s ease-in;
+            /* transition: transform 0.25s ease-out; */
+    }
+     
     .about-and-menu {
         flex-direction: column;
     }
