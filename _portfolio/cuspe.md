@@ -1,5 +1,5 @@
 ---
-title: "Cambridgeshire Decarbonisation Fund: Net-Zero by 2050"
+title: "Cambridgeshire decarbonisation fund: net-zero by 2050"
 excerpt: "White paper on investment opportunities to support locally in community infrastructure and nature-based projects that reduce carbon emissions at their source or actively sequester carbon"
 layout: archive
 collection: portfolio

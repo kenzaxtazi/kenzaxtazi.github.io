@@ -1,6 +1,6 @@
 ---
 title: "Narrowing precipitation uncertainty over High Mountain Asia"
-excerpt: "Downscaling precipitation using Multi-Fidelity Gaussian Processes by combining data from multiple sources to increase prediction accuracy and provide principled uncertainty distribution"
+excerpt: "Downscaling precipitation using multi-fidelity Gaussian processes by combining data from multiple sources to increase prediction accuracy and provide uncertainty distributions over ungauged areas"
 layout: archive
 header:
     teaser: /snowy_tree.jpg

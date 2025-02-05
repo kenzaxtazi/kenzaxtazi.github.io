@@ -1,5 +1,5 @@
 ---
-title: "cloud-id: Cloud identification over polar regions"
+title: "cloud-id: cloud identification over polar regions"
 excerpt: "Deep learning model to identify clouds over polar regions using satellite data from the Sentinel 3 SLSTR instrument"
 layout: archive
 header:
