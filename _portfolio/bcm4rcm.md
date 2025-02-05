@@ -1,5 +1,5 @@
 ---
-title: "BCM4RCM: Bayesian committee machines for regional climate models"
+title: "bcm4rcm: Bayesian committee machines for regional climate models"
 excerpt: "An ensemble learning method to combine different regional climate model outputs and produce principled uncertainty estimates of precipitation under different climate scenarios"
 layout: archive
 header:
