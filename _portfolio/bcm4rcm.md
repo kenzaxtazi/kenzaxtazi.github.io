@@ -1,12 +1,12 @@
 ---
-title: "BCM4RCM: Bayesian Committee Machines for Regional Climate Models"
-excerpt: "An ensembling method to combine different regional climate model outputs and produce principled uncertainty estimates of precipitation under different climate scenarios"
+title: "BCM4RCM: Bayesian committee machines for regional climate models"
+excerpt: "An ensemble learning method to combine different regional climate model outputs and produce principled uncertainty estimates of precipitation under different climate scenarios"
 layout: archive
 header:
     teaser: /white_mountains.jpg
 collection: portfolio
-pdate: "2023-2024"
-paper: https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcam.us19.list-manage.com%2Ftrack%2Fclick%3Fu%3D419af8f3d81cb9d44999cdbb1%26id%3Dcd448e4e2c%26e%3D8d95ccd487&data=05%7C01%7Ckt484%40universityofcambridgecloud.onmicrosoft.com%7C7e0dc7be1cca471accc808dbef404662%7C49a50445bdfa4b79ade3547b4f3986e9%7C1%7C0%7C638366831624928497%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=135mJ4SAdyH1Ti9OYRC4sar42kkzu%2FjVHGCrnWwUcKk%3D&reserved
+pdate: "2023-2025"
+paper: https://arxiv.org/abs/2501.15690
 code: https://github.com/kenzaxtazi/bcm4rcm
 award: "AGU Precipitation Student Award 2023" 
 talk: https://youtu.be/AmckHkRl2ng?si=IhOJwpqCE0v7iZdq&t=1184
