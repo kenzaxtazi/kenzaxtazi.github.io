@@ -1,6 +1,6 @@
 ---
 title: "Predicting future precipitation in the Upper Indus Basin using Gaussian processes"
-excerpt: "Large-scale circulation patterns are used to make 15-year precipitations projections while contrasting flexible non-stationary covariance functions with methods incorporating domain knowledge"
+excerpt: "Large-scale circulation patterns are used to make precipitation projections while contrasting flexible non-stationary covariance functions with methods incorporating domain knowledge"
 layout: archive
 collection: portfolio
 header:
