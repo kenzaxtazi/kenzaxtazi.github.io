@@ -11,7 +11,7 @@ redirect_from:
 About
 ----
 
-Hi! I'm a research scientist at [European Center for Medium Range Weather Forecasts](https://ecmwf.int) working the flood forecasting. I previously completed my PhD at the University of Cambridge under the supervision of [Richard E. Turner](https://cbl.eng.cam.ac.uk/people/ret26/), [Scott Hosking](https://scotthosking.com), [Andrew Orr](https://www.bas.ac.uk/profile/anmcr/), and [Javier González](https://javiergonzalezh.github.io). In this website, you'll find some of my recent projects and academic resources.
+Hi! I'm a research scientist at [European Center for Medium Range Weather Forecasts](https://ecmwf.int) working on flood forecasting. I previously completed my PhD at the University of Cambridge under the supervision of [Richard E. Turner](https://cbl.eng.cam.ac.uk/people/ret26/), [Scott Hosking](https://scotthosking.com), [Andrew Orr](https://www.bas.ac.uk/profile/anmcr/), and [Javier González](https://javiergonzalezh.github.io). In this website, you'll find some of my recent projects and academic resources.
 
 Research Interests
 ----
