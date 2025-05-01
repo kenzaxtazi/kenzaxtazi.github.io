@@ -10,7 +10,7 @@ locale                   : "en-UK"
 title                    : "Kenza Tazi"
 title_separator          : "-"
 name                     : &name "Kenza Tazi"
-description              : &description "PhD student"
+description              : &description "Research scientist at ECMWF"
 url                      : https://kenzaxtazi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kenzaxtazi/kenzaxtazi.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Kenza Tazi"
   avatar           : "profile.png"
-  bio              : "Machine learning for the climate"
-  location         : "University of Cambridge, UK"
+  bio              : "Machine learning for the planet"
+  location         : "Reading, UK"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=zfX6gYAAAAAJ&hl=en"
