@@ -1,0 +1,37 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+   
+    <title>Kenza Tazi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/homepage_style.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body class="baskerville" style="background-color: #f7f6f3">
+
+     <div class="mw7-ns center">
+
+    {% include browser-upgrade.html %}
+
+    {{ content }}
+
+    {% include scripts.html %}
+
+    </div>
+
+  </body>
+</html>
+
+
+<!doctype html>
+<html>
