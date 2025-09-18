@@ -1,0 +1,12 @@
+{% assign entries = site.portfolio%}
+
+{% if include.sort_by %}
+    {% assign entries = entries | sort: include.sort_by %}
+{% endif %}
+
+{%- for post in entries -%}
+    {%- unless post.hidden -%}
+        {% include project_item.html %}
+    {% endunless %}
+{%- endfor -%}
+

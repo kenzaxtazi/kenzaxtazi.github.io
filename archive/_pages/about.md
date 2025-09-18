@@ -3,7 +3,8 @@ permalink: /
 title: " "
 excerpt: " "
 author_profile: true
-redirect_from: 
+layout: new_homepage
+redirect_from:
   - /about/
   - /about.html
 ---

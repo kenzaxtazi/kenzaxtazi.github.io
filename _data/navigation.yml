@@ -3,14 +3,14 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Projects"
-    url: /projects/
+#  - title: "Projects"
+#    url: /projects/
 
   - title: "Resources"
     url: /resources/
 
   - title: "CV"
-    url: "http://kenzaxtazi.github.io//files/KTazi_CV_Feb25.pdf"
+    url: "http://kenzaxtazi.github.io//files/KTazi_CV_Aug25.pdf"
     
 #  - title: "Guide"
 #    url: /markdown/

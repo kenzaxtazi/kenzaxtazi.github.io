@@ -223,9 +223,9 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: porfolio
     values:
-      layout: single
+      layout: new_homepage
       author_profile: true
       share: true
       comment: true

@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <title>Kenza Tazi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/homepage_style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body class="baskerville" style="background-color: #f7f6f3">
+    <div class="mw7-ns center">
+        <article class="pa4 flex-ns justify-center">
+            <div class="pa4 w-50-ns">
+                <h1 style="font-weight: 300;"> Kenza Tazi</h1>
+                <p> Research scientist, ECMWF <br>
+                    kenza.tazi at ecmwf.int </p>
+                <p>
+                    <a href="http://kenzaxtazi.github.io//files/KTazi_CV_Aug25.pdf">CV</a> <br>
+                    <a href="https://github.com/kenzaxtazi">Code</a> <br>
+                    <a href="https://scholar.google.com/citations?user=zfX6gYAAAAAJ&hl=en">Papers</a>
+                </p>
+            </div>
+            <div class="pa4 w-50-ns flex justify-center">
+                <img src="images/KenzaTazi_headshot.jpeg" class="w-100 h-auto">
+            </div>
+        </article>
+
+        <article class="ph4 flex-ns justify-center">
+            <div class="ph4">
+            <p> Hi! I'm Kenza, a research scientist at <a
+                    href="https://www.ecmwf.int/en/about/who-we-are/staff-profiles/kenza-tazi">
+                    European Centre for Medium-Range Weather Forecasts </a> working on flood forecasting.
+                I am broadly interested in machine learning, uncertainty quantification and climate change.
+                I previously completed my PhD at the University of Cambridge and the British Antarctic Survey under the
+                supervision of <a href="https://rich-turner-group.github.io"> Richard E Turner</a>,
+                <a href="https://www.bas.ac.uk/profile/anmcr/"> Andrew Orr</a>, 
+                <a href="https://scotthosking.com"> J Scott Hosking</a>, and
+                <a href="https://javiergonzalezh.github.io"> Javier González</a>.
+            </p>
+            <p> I have always enjoyed the outdoors, especially exploring mountains. In 2014, I 
+                represented Morocco at the Sochi Winter Olympics in alpine skiing. 
+                Now, I also contribute to climate and environmental advocacy and policy 
+                in order to protect these spaces in addition to my research. </p>
+            </div>
+        </article>
+
+        <article class="ph4">
+            <div class="ph4">
+            <h2 style="font-weight: 300;"> Projects and notes </h2>
+            {% include project_list.html collection="portfolio" %}
+            </div>
+        </article>
+
+    <article class="pa4 flex-ns">
+            <div class="ph4 f5">
+             Last updated September 2025.
+            </div>
+    </article>
+
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleContainers = document.querySelectorAll('.toggle-container');
+        toggleContainers.forEach(container => {
+            const header = container.querySelector('.toggle-header');
+            const triangle = container.querySelector('.triangle');
+            // Select the dropdown content element
+            const list = container.querySelector('.dropdown-content');
+
+            header.addEventListener('click', () => {
+                // Toggle the triangle rotation
+                triangle.classList.toggle('rotate-90');
+                triangle.classList.toggle('rotate-0');
+                
+                // Toggle the show/hide class for the smooth transition
+                list.classList.toggle('dropdown-show');
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
