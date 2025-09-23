@@ -1,6 +1,6 @@
 ---
-title: "Seoul Subway Poems"
+title: "Sui Generis"
 collection : portfolio
 ---
 
-<a href="https://kenzaxtazi.github.io//poems"> Poems collected on the Seoul subway. </a>
+<a href="https://kenzaxtazi.github.io//poems">Seoul Subway Poems</a>
