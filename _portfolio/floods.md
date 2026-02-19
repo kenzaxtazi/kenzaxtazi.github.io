@@ -3,4 +3,5 @@ title: "Flood forecasting"
 collection: "portfolio"
 ---
 
-<a href="https://destine.ecmwf.int/news/destine-blog-towards-an-ml-based-earth-system-model-hydrology/"> Towards an ML-based Earth System Model: Hydrology </a>
+<a href="https://arxiv.org/abs/2602.16579"> AIFL: a global daily streamflow forecasting model using a deterministic LSTM pre-trained on ERA5-Land and fine-tuned on IFS </a>
+
