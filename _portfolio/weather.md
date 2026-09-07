@@ -1,5 +1,5 @@
 ---
-title: "Weather"
+title: "Machine learning for weather"
 collection: "portfolio"
 ---
 
