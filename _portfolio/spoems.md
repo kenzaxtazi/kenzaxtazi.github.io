@@ -1,5 +1,5 @@
 ---
-title: "Sui Generis"
+title: "Sui generis"
 collection : portfolio
 ---
 
